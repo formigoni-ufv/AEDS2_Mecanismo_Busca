@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\TP_1.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\TP_1.dir/objects.a @CMakeFiles\TP_1.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe  -g   -Wl,--whole-archive CMakeFiles\TP_1.dir/objects.a -Wl,--no-whole-archive  -o TP_1.exe -Wl,--out-implib,libTP_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TP_1.dir\linklibs.rsp

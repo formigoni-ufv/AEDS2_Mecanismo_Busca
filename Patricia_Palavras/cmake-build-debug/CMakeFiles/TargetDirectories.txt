@@ -1,3 +1,0 @@
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Exercicios/Primeiro_TP/Patricia_Palavras/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Exercicios/Primeiro_TP/Patricia_Palavras/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Exercicios/Primeiro_TP/Patricia_Palavras/cmake-build-debug/CMakeFiles/rebuild_cache.dir
