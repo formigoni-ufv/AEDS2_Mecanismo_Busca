@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Letras/auxprocedures.c
+stdio.h
+-
+stdlib.h
+-
+auxprocedures.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Letras/auxprocedures.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Letras/auxprocedures.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Letras/main.c
+stdio.h
+-
+stdlib.h
+-
+auxprocedures.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Letras/auxprocedures.h
+patricia.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Letras/patricia.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Letras/patricia.c
+stdio.h
+-
+stdlib.h
+-
+patricia.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Letras/patricia.h
+auxprocedures.h
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Letras/auxprocedures.h
+
+D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Letras/patricia.h
+

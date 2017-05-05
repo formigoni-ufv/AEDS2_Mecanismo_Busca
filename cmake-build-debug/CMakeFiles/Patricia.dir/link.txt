@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Patricia.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Patricia.dir/objects.a @CMakeFiles\Patricia.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -g   -Wl,--whole-archive CMakeFiles\Patricia.dir/objects.a -Wl,--no-whole-archive  -o Patricia.exe -Wl,--out-implib,libPatricia.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Patricia.dir\linklibs.rsp
