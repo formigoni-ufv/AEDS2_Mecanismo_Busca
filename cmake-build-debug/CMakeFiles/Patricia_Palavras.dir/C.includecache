@@ -6,17 +6,33 @@
 
 #IncludeRegexTransform: 
 
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.c
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.c
 stdio.h
 -
 stdlib.h
 -
 auxprocedures.h
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.h
 
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.h
 
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/main.c
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/dados.h
+
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/listaencadeada.c
+stdio.h
+-
+stdlib.h
+-
+listaencadeada.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/listaencadeada.h
+dados.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/dados.h
+
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/listaencadeada.h
+dados.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/dados.h
+
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/main.c
 stdio.h
 -
 stdlib.h
@@ -24,21 +40,25 @@ stdlib.h
 string.h
 -
 auxprocedures.h
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.h
 patricia.h
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
 
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.c
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.c
 stdio.h
 -
 stdlib.h
 -
 patricia.h
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
 string.h
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/string.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/string.h
 auxprocedures.h
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.h
 
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
+dados.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/dados.h
+listaencadeada.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/listaencadeada.h
 

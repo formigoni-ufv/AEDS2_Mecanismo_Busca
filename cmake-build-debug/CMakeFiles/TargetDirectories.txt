@@ -1,3 +1,3 @@
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Cloud_Storage/OneDrive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/cmake-build-debug/CMakeFiles/rebuild_cache.dir

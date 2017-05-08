@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca"
+CMAKE_SOURCE_DIR = "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Patricia_Palavras.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/Patricia_Palavras.dir/flags.make
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: CMakeFiles/Patricia_Palavras.dir/flags.make
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: ../Patricia_Palavras/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\main.c.obj   -c "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\main.c.obj   -c "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\main.c"
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\main.c" > CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\main.c.i
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\main.c" > CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\main.c.i
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\main.c" -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\main.c.s
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\main.c" -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\main.c.s
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj.provides.build: CM
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj: CMakeFiles/Patricia_Palavras.dir/flags.make
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj: ../Patricia_Palavras/patricia.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\patricia.c.obj   -c "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\patricia.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\patricia.c.obj   -c "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\patricia.c"
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\patricia.c" > CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\patricia.c.i
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\patricia.c" > CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\patricia.c.i
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\patricia.c" -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\patricia.c.s
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\patricia.c" -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\patricia.c.s
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj.provides.build
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj: CMakeFiles/Patricia_Palavras.dir/flags.make
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj: ../Patricia_Palavras/auxprocedures.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\auxprocedures.c.obj   -c "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\auxprocedures.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\auxprocedures.c.obj   -c "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\auxprocedures.c"
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\auxprocedures.c" > CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\auxprocedures.c.i
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\auxprocedures.c" > CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\auxprocedures.c.i
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\auxprocedures.c" -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\auxprocedures.c.s
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\auxprocedures.c" -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\auxprocedures.c.s
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj.requires:
 
@@ -128,11 +128,36 @@ CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj.provides:
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj.provides.build: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj
 
 
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj: CMakeFiles/Patricia_Palavras.dir/flags.make
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj: ../Patricia_Palavras/listaencadeada.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\listaencadeada.c.obj   -c "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\listaencadeada.c"
+
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\listaencadeada.c" > CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\listaencadeada.c.i
+
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\Patricia_Palavras\listaencadeada.c" -o CMakeFiles\Patricia_Palavras.dir\Patricia_Palavras\listaencadeada.c.s
+
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj.requires:
+
+.PHONY : CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj.requires
+
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj.provides: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj.requires
+	$(MAKE) -f CMakeFiles\Patricia_Palavras.dir\build.make CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj.provides.build
+.PHONY : CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj.provides
+
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj.provides.build: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj
+
+
 # Object files for target Patricia_Palavras
 Patricia_Palavras_OBJECTS = \
 "CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj" \
 "CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj" \
-"CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj"
+"CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj" \
+"CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj"
 
 # External object files for target Patricia_Palavras
 Patricia_Palavras_EXTERNAL_OBJECTS =
@@ -140,11 +165,12 @@ Patricia_Palavras_EXTERNAL_OBJECTS =
 Patricia_Palavras.exe: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj
 Patricia_Palavras.exe: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj
 Patricia_Palavras.exe: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj
+Patricia_Palavras.exe: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj
 Patricia_Palavras.exe: CMakeFiles/Patricia_Palavras.dir/build.make
 Patricia_Palavras.exe: CMakeFiles/Patricia_Palavras.dir/linklibs.rsp
 Patricia_Palavras.exe: CMakeFiles/Patricia_Palavras.dir/objects1.rsp
 Patricia_Palavras.exe: CMakeFiles/Patricia_Palavras.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Patricia_Palavras.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Patricia_Palavras.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Patricia_Palavras.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -155,6 +181,7 @@ CMakeFiles/Patricia_Palavras.dir/build: Patricia_Palavras.exe
 CMakeFiles/Patricia_Palavras.dir/requires: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj.requires
 CMakeFiles/Patricia_Palavras.dir/requires: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj.requires
 CMakeFiles/Patricia_Palavras.dir/requires: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/auxprocedures.c.obj.requires
+CMakeFiles/Patricia_Palavras.dir/requires: CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj.requires
 
 .PHONY : CMakeFiles/Patricia_Palavras.dir/requires
 
@@ -163,6 +190,6 @@ CMakeFiles/Patricia_Palavras.dir/clean:
 .PHONY : CMakeFiles/Patricia_Palavras.dir/clean
 
 CMakeFiles/Patricia_Palavras.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca" "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca" "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug" "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug" "D:\Cloud_Storage\OneDrive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles\Patricia_Palavras.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca" "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca" "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug" "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug" "D:\Cloud_Storage\Google Drive\Faculdade\Semestre 3\AEDS II\Trabalhos Praticos\Mecanismo_Busca\cmake-build-debug\CMakeFiles\Patricia_Palavras.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Patricia_Palavras.dir/depend
 
