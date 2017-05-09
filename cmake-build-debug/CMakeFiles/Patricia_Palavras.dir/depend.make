@@ -9,9 +9,10 @@ CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj: ../Patr
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj: ../Patricia_Palavras/listaencadeada.h
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: ../Patricia_Palavras/dados.h
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: ../Patricia_Palavras/listaencadeada.h
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: ../Patricia_Palavras/main.c
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: ../Patricia_Palavras/patricia.h
 
-CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj: ../Patricia_Palavras/auxprocedures.h
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj: ../Patricia_Palavras/dados.h
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj: ../Patricia_Palavras/listaencadeada.h
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj: ../Patricia_Palavras/patricia.c

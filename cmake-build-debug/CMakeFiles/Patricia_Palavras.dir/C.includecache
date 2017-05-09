@@ -33,10 +33,8 @@ dados.h
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/dados.h
 
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/main.c
-stdio.h
--
-string.h
--
+patricia.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
 dados.h
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/dados.h
 
@@ -45,12 +43,10 @@ stdio.h
 -
 stdlib.h
 -
+string.h
+-
 patricia.h
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
-string.h
-D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/string.h
-auxprocedures.h
-D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/auxprocedures.h
 
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
 dados.h

@@ -1,7 +1,7 @@
 #ifndef PATRICIA_DADOS_H
 #define PATRICIA_DADOS_H
 
-typedef char* data;
+typedef char* String;
 
 typedef struct{
 	unsigned qtde;
