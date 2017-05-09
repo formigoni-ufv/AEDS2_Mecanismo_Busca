@@ -32,19 +32,21 @@ void Pat_NewNode(PatNode_Pointer* tree, PatNode_Pointer* output_tree, String key
 	external = (PatNode_Pointer)malloc(sizeof(PatNode));
 	internal = (PatNode_Pointer)malloc(sizeof(PatNode));
 
-	/*External node initialization*/
+	/*New External node initialization*/
 	external->nodetype = External;
 	external->External_Node.data.key = (String)malloc( (strlen(key)+1)*sizeof(char) );
 	strcpy(external->External_Node.data.key, key);
 	(*tree)->External_Node.data.invertedindex = *list;
 
-	/*Internal node initialization*/
+	/*New Internal node initialization*/
 	internal->nodetype = Internal;
 	internal->External_Node.Internal_Node.pos_differ_key = pos_differ_key+1;	//Adjust the differing index
 
-	//Puts the smallest of the compared chars(input and internal) in the internal node
-	//if the smallest character is taken from the internal key, the external key should be on the right
- 	//if the smallest character is taken from the input key, the external key should be on the left
+	/*Puts the smallest of the compared chars(input and internal) in the internal node
+	 * if the smallest character is taken from the internal key, the external key should be on the right
+ 	 * if the smallest character is taken from the input key, the external key should be on the left
+	*/
+
  	if(key[pos_differ_key] < (*tree)->External_Node.data.key[pos_differ_key]) {
 		internal->External_Node.Internal_Node.comparison_char = key[pos_differ_key];
 		internal->External_Node.Internal_Node.left = external;
@@ -58,6 +60,7 @@ void Pat_NewNode(PatNode_Pointer* tree, PatNode_Pointer* output_tree, String key
 }
 
 void Pat_IInsert(PatNode_Pointer* tree, PatNode_Pointer* output_tree, String key, LL_Pointer* list, int* sum, int* flag, int* overflow){
+	/*First node initialization to the left of the first (NULL) node*/
 	if(*tree == NULL){
 		*flag = 1;
 		*tree = (PatNode_Pointer) malloc(sizeof(PatNode));
@@ -68,12 +71,10 @@ void Pat_IInsert(PatNode_Pointer* tree, PatNode_Pointer* output_tree, String key
 		return;
 	}
 
-	/* if the node is external, the input string is compared with
-	 * the current external node string, if the are equal the function
-	 * returns with a flag of 1, therefore finishing the insertion process.
+	/* If the node is external, compares the string to the input one.
+	 * if they are the same returns. Else, calls the function Pat_NewNode
 	 */
 	if(Pat_NodeType(*tree)){
-
 		if(!strcmp(key, (*tree)->External_Node.data.key)){
 			*flag = 1;
 		}else{
@@ -82,7 +83,7 @@ void Pat_IInsert(PatNode_Pointer* tree, PatNode_Pointer* output_tree, String key
 		return;
 	}
 
-	/*From this point forward, the node is known to be internal,
+	/* From this point forward, the node is known to be internal,
 	 * therefore it should be decided which side(left or right)
 	 * the input string should be redirected to.
 	 */
@@ -117,6 +118,10 @@ void Pat_IInsert(PatNode_Pointer* tree, PatNode_Pointer* output_tree, String key
 		*overflow = 1;
 	}
 
+	/*IF the word is too short, walks on the trie until an external node is found, after that,
+	 * it is compared to the input string and it returns with a new internal node containing
+	 * the differing position and the smallest differing character.
+	 */
 	if(*overflow){
 		Pat_IInsert(&(*tree)->External_Node.Internal_Node.left, output_tree, key, list, sum, flag, overflow);
 		if(*sum < (*output_tree)->External_Node.Internal_Node.pos_differ_key && *flag == 0){
@@ -137,6 +142,9 @@ void Pat_IInsert(PatNode_Pointer* tree, PatNode_Pointer* output_tree, String key
 			*sum -= (*tree)->External_Node.Internal_Node.pos_differ_key;
 
 		}
+		/* ELSE the word is compared to the trie's node, if the key is bigger than the node,
+		 * it goes to the right, otherwise, it goes to the left
+		 */
 	}else{
 		if(key[*sum-1] > (*tree)->External_Node.Internal_Node.comparison_char){
 			Pat_IInsert(&(*tree)->External_Node.Internal_Node.right, output_tree, key, list, sum, flag, overflow);
@@ -149,8 +157,6 @@ void Pat_IInsert(PatNode_Pointer* tree, PatNode_Pointer* output_tree, String key
 			 * go back one recursion level.
 			 * Sum goes back to its original value in the previous node, this is done by removing the current
 			 * internal node comparison index from the sum, which was previously added to it.
-			 * The index of the current internal node char index is decreased by the offset with the new differing
-			 * position if it doesn't equals 1.
 			 */
 			if(*sum > (*output_tree)->External_Node.Internal_Node.pos_differ_key){
 				*sum -= (*tree)->External_Node.Internal_Node.pos_differ_key;
@@ -172,8 +178,11 @@ void Pat_IInsert(PatNode_Pointer* tree, PatNode_Pointer* output_tree, String key
 				(*output_tree)->External_Node.Internal_Node.right = (*tree)->External_Node.Internal_Node.right;
 			}
 
+			/*From the new node is subtracted the current node value, and the previous
+			 * value gets subtracted by this result.
+			 */
 			(*output_tree)->External_Node.Internal_Node.pos_differ_key -= *sum;
-			if(Pat_NodeType((*tree)->External_Node.Internal_Node.left) == Internal){
+			if(Pat_NodeType((*tree)->External_Node.Internal_Node.right) == Internal){
 				(*tree)->External_Node.Internal_Node.right->External_Node.Internal_Node.pos_differ_key -= (*output_tree)->External_Node.Internal_Node.pos_differ_key;
 			}
 
@@ -216,7 +225,7 @@ void Pat_Insert(PatNode_Pointer* tree, String key, LL_Pointer* list){
 	Pat_IInsert(tree, &output, key, list, &sum, &flag, &overflow);
 }
 
-void Pat_SSearch(PatNode_Pointer tree, String key, int* sum, int *flag){
+void Pat_SSearch(PatNode_Pointer tree, String key, int* sum, int *flag, PatNode_Pointer* output){
 
 	/*Unitiliazed tree*/
 	if(tree == NULL){
@@ -226,7 +235,7 @@ void Pat_SSearch(PatNode_Pointer tree, String key, int* sum, int *flag){
 
 	/*First node bypass*/
 	if(tree->External_Node.Internal_Node.pos_differ_key == -1){
-		Pat_SSearch(tree->External_Node.Internal_Node.left, key, sum, flag);
+		Pat_SSearch(tree->External_Node.Internal_Node.left, key, sum, flag, output);
 		return;
 	}
 
@@ -237,27 +246,47 @@ void Pat_SSearch(PatNode_Pointer tree, String key, int* sum, int *flag){
 	if(Pat_NodeType(tree)){
 		if(!strcmp(key, tree->External_Node.data.key)){
 			*flag = 1;
-			printf("Key %s is on the tree.\n", tree->External_Node.data.key);
-			LL_Print(tree->External_Node.data.invertedindex);
+			*output = tree;
 		}else{
 			*flag = 0;
-			printf("Key is not on the tree.\n");
+			printf("Key is not on the tree.\n"); //TODO remover
 		}
 	}else {
 		*sum  += tree->External_Node.Internal_Node.pos_differ_key;
-		
+
 		if (key[*sum-1] > tree->External_Node.Internal_Node.comparison_char) {
-//			printf("Passing in node %d right\n", tree->External_Node.Internal_Node.pos_differ_key); //Path Right
-			Pat_SSearch(tree->External_Node.Internal_Node.right, key, sum, flag);
+//			printf("Passing in node %d %c right\n", tree->External_Node.Internal_Node.pos_differ_key, tree->External_Node.Internal_Node.comparison_char); //Path Right
+			Pat_SSearch(tree->External_Node.Internal_Node.right, key, sum, flag, output);
 		} else {
-//			printf("Passing in node %d left\n", tree->External_Node.Internal_Node.pos_differ_key); //Path Right
-			Pat_SSearch(tree->External_Node.Internal_Node.left, key, sum, flag);
+//			printf("Passing in node %d %c left\n", tree->External_Node.Internal_Node.pos_differ_key, tree->External_Node.Internal_Node.comparison_char); //Path Right
+			Pat_SSearch(tree->External_Node.Internal_Node.left, key, sum, flag, output);
 		}
 	}
 }
 
-void Pat_Search(PatNode_Pointer tree, String key){
+void Pat_Search(PatNode_Pointer tree, String key, PatNode_Pointer* output){
 	int sum = 0, flag = 0;
+	Pat_SSearch(tree, key, &sum, &flag, output);
+}
 
-	Pat_SSearch(tree, key, &sum, &flag);
+void Pat_Print(PatNode_Pointer tree){
+	if(Pat_NodeType(tree)){
+		printf("%s\n", tree->External_Node.data.key);
+		return;
+	}
+	Pat_Print(tree->External_Node.Internal_Node.left);
+	if(tree->External_Node.Internal_Node.pos_differ_key != -1){
+		Pat_Print(tree->External_Node.Internal_Node.right);
+	}
+}
+
+void Pat_FPrint(PatNode_Pointer tree, FILE** output){
+	if(Pat_NodeType(tree)){
+		fprintf(*output, "%s ", tree->External_Node.data.key);
+		return;
+	}
+	Pat_FPrint(tree->External_Node.Internal_Node.left, output);
+	if(tree->External_Node.Internal_Node.pos_differ_key != -1){
+		Pat_FPrint(tree->External_Node.Internal_Node.right, output);
+	}
 }

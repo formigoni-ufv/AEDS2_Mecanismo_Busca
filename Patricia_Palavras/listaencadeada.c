@@ -24,3 +24,14 @@ void LL_Print(LL_Pointer LL){
 		node = node->next;
 	}
 }
+
+int LL_Count(LL_Pointer LL){
+	int count= 0;
+	LL_NodePointer node = LL->first->next;
+
+	while(node != NULL){
+		count++;
+		node = node->next;
+	}
+	return count;
+}

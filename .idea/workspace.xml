@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Patricia_Palavras/main.c" line="37" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="Patricia" targetName="Patricia_Palavras" />
@@ -12,18 +15,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b37eccd-adf6-4e22-8d3c-ae634242ea68" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/objects.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Patricia_Palavras.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/Patricia_Palavras.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Patricia_Palavras/dados.h" afterPath="$PROJECT_DIR$/Patricia_Palavras/dados.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Patricia_Palavras/listaencadeada.c" afterPath="$PROJECT_DIR$/Patricia_Palavras/listaencadeada.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Patricia_Palavras/listaencadeada.h" afterPath="$PROJECT_DIR$/Patricia_Palavras/listaencadeada.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Patricia_Palavras/main.c" afterPath="$PROJECT_DIR$/Patricia_Palavras/main.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Patricia_Palavras/patricia.c" afterPath="$PROJECT_DIR$/Patricia_Palavras/patricia.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Patricia_Palavras/patricia.h" afterPath="$PROJECT_DIR$/Patricia_Palavras/patricia.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Patricia_Palavras/saida.txt" afterPath="$PROJECT_DIR$/Patricia_Palavras/saida.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/depend.make" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +41,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="dados.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Patricia_Palavras/dados.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="patricia.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patricia_Palavras/patricia.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="259">
+              <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
               <folding>
                 <element signature="e#38#56#0" expanded="true" />
               </folding>
@@ -48,17 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patricia.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="patricia.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patricia_Palavras/patricia.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="247" column="8" lean-forward="false" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="8" />
+            <state relative-caret-position="199">
+              <caret line="289" column="66" lean-forward="false" selection-start-line="289" selection-start-column="66" selection-end-line="289" selection-end-column="66" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#81#145#0" expanded="false" />
                 <element signature="e#207#445#0" expanded="false" />
                 <element signature="e#447#526#0" expanded="false" />
-                <element signature="e#8114#8313#0" expanded="false" />
-                <element signature="e#9563#9678#0" expanded="false" />
+                <element signature="e#528#2161#0" expanded="false" />
+                <element signature="e#2163#8517#0" expanded="false" />
+                <element signature="e#8519#8718#0" expanded="false" />
+                <element signature="e#8720#10033#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -67,11 +85,41 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patricia_Palavras/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="288">
+              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saida.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Patricia_Palavras/saida.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listaencadeada.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Patricia_Palavras/listaencadeada.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listaencadeada.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Patricia_Palavras/listaencadeada.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,6 +129,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>LL_Print</find>
+      <find>Output:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,17 +140,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Patricia_Palavras/listaencadeada.h" />
-        <option value="$PROJECT_DIR$/Patricia_Palavras/listaencadeada.c" />
         <option value="$PROJECT_DIR$/Patricia_Palavras/saida.txt" />
         <option value="$PROJECT_DIR$/Patricia_Palavras/temp.txt" />
         <option value="$PROJECT_DIR$/Patricia_Palavras/entrada.txt" />
         <option value="$PROJECT_DIR$/Patricia_Palavras/arquivo1.txt" />
         <option value="$PROJECT_DIR$/Patricia_Palavras/copy2.txt" />
         <option value="$PROJECT_DIR$/Patricia_Palavras/arquivo0.txt" />
-        <option value="$PROJECT_DIR$/Patricia_Palavras/main.c" />
         <option value="$PROJECT_DIR$/Patricia_Palavras/dados.h" />
+        <option value="$PROJECT_DIR$/Patricia_Palavras/listaencadeada.c" />
+        <option value="$PROJECT_DIR$/Patricia_Palavras/listaencadeada.h" />
         <option value="$PROJECT_DIR$/Patricia_Palavras/patricia.h" />
+        <option value="$PROJECT_DIR$/Patricia_Palavras/main.c" />
         <option value="$PROJECT_DIR$/Patricia_Palavras/patricia.c" />
       </list>
     </option>
@@ -396,7 +446,7 @@
       <workItem from="1493858804518" duration="4264000" />
       <workItem from="1493958872801" duration="44967000" />
       <workItem from="1494039854643" duration="28000" />
-      <workItem from="1494172759656" duration="65641000" />
+      <workItem from="1494172759656" duration="80513000" />
     </task>
     <task id="LOCAL-00001" summary="Arquivos do projeto organizados">
       <created>1493802922547</created>
@@ -416,7 +466,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116185000" />
+    <option name="totallyTimeSpent" value="131057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +486,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15733737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -487,7 +537,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -515,7 +565,7 @@
         <state relative-caret-position="522">
           <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -526,10 +576,13 @@
           <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#81#145#0" expanded="false" />
             <element signature="e#207#445#0" expanded="false" />
             <element signature="e#447#526#0" expanded="false" />
-            <element signature="e#8114#8313#0" expanded="false" />
-            <element signature="e#9563#9678#0" expanded="false" />
+            <element signature="e#528#2161#0" expanded="false" />
+            <element signature="e#2163#8517#0" expanded="false" />
+            <element signature="e#8519#8718#0" expanded="false" />
+            <element signature="e#8720#10033#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -557,7 +610,7 @@
         <state relative-caret-position="522">
           <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,10 +621,13 @@
           <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#81#145#0" expanded="false" />
             <element signature="e#207#445#0" expanded="false" />
             <element signature="e#447#526#0" expanded="false" />
-            <element signature="e#8114#8313#0" expanded="false" />
-            <element signature="e#9563#9678#0" expanded="false" />
+            <element signature="e#528#2161#0" expanded="false" />
+            <element signature="e#2163#8517#0" expanded="false" />
+            <element signature="e#8519#8718#0" expanded="false" />
+            <element signature="e#8720#10033#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -599,7 +655,7 @@
         <state relative-caret-position="270">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -610,10 +666,13 @@
           <caret line="274" column="25" lean-forward="true" selection-start-line="274" selection-start-column="25" selection-end-line="274" selection-end-column="25" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#81#145#0" expanded="false" />
             <element signature="e#207#445#0" expanded="false" />
             <element signature="e#447#526#0" expanded="false" />
-            <element signature="e#8114#8313#0" expanded="false" />
-            <element signature="e#9563#9678#0" expanded="false" />
+            <element signature="e#528#2161#0" expanded="false" />
+            <element signature="e#2163#8517#0" expanded="false" />
+            <element signature="e#8519#8718#0" expanded="false" />
+            <element signature="e#8720#10033#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -707,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Patricia_Palavras/saida.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Patricia_Palavras/temp.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -771,63 +822,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Patricia_Palavras/listaencadeada.h">
+    <entry file="file://$PROJECT_DIR$/Patricia_Palavras/dados.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Patricia_Palavras/listaencadeada.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="82">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Patricia_Palavras/patricia.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="259">
+          <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding>
             <element signature="e#38#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Patricia_Palavras/dados.h">
+    <entry file="file://$PROJECT_DIR$/Patricia_Palavras/patricia.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="199">
+          <caret line="289" column="66" lean-forward="false" selection-start-line="289" selection-start-column="66" selection-end-line="289" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#81#145#0" expanded="false" />
+            <element signature="e#207#445#0" expanded="false" />
+            <element signature="e#447#526#0" expanded="false" />
+            <element signature="e#528#2161#0" expanded="false" />
+            <element signature="e#2163#8517#0" expanded="false" />
+            <element signature="e#8519#8718#0" expanded="false" />
+            <element signature="e#8720#10033#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Patricia_Palavras/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="288">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Patricia_Palavras/patricia.c">
+    <entry file="file://$PROJECT_DIR$/Patricia_Palavras/saida.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="247" column="8" lean-forward="false" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#207#445#0" expanded="false" />
-            <element signature="e#447#526#0" expanded="false" />
-            <element signature="e#8114#8313#0" expanded="false" />
-            <element signature="e#9563#9678#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patricia_Palavras/listaencadeada.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -17,5 +17,6 @@ typedef struct LinkedList{
 void LL_Inititialize(LL_Pointer* LL);
 void LL_Insert(LL_Pointer* LL, InvertedIndex index);
 void LL_Print(LL_Pointer LL);
+int LL_Count(LL_Pointer LL);
 
 #endif //PATRICIA_LISTAENCADEADA_H

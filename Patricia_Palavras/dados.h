@@ -8,4 +8,5 @@ typedef struct{
 	unsigned idDoc;
 }InvertedIndex;
 
+
 #endif //PATRICIA_DADOS_H
