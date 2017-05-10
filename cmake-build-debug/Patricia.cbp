@@ -104,6 +104,12 @@
 		<Unit filename="D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h">
 			<Option target="Patricia_Palavras"/>
 		</Unit>
+		<Unit filename="D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/relevancia.c">
+			<Option target="Patricia_Palavras"/>
+		</Unit>
+		<Unit filename="D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/relevancia.h">
+			<Option target="Patricia_Palavras"/>
+		</Unit>
 		<Unit filename="D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

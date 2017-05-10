@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include "patricia.h"
-//TODO Nodo e cumulativo, implementar este parametro nas funcoes
-//TODO NOTES: TST para autocomplete, patricia para pesquisa
 
 void Pat_Initialize(PatNode_Pointer* tree){
 	*tree = (PatNode_Pointer) malloc(sizeof(PatNode));
@@ -21,7 +19,6 @@ void Pat_NewNode(PatNode_Pointer* tree, PatNode_Pointer* output_tree, String key
 	PatNode_Pointer internal, external;
 
 	*flag = 0;
-
 
 	/*Finds the character in which the words differ*/
 	while(key[pos_differ_key] == internal_key[pos_differ_key]) {
@@ -249,7 +246,6 @@ void Pat_SSearch(PatNode_Pointer tree, String key, int* sum, int *flag, PatNode_
 			*output = tree;
 		}else{
 			*flag = 0;
-			printf("Key is not on the tree.\n"); //TODO remover
 		}
 	}else {
 		*sum  += tree->External_Node.Internal_Node.pos_differ_key;

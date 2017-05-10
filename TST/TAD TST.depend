@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1493875232 source:c:\users\toni\desktop\tad tst\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tst.h"
+	"tst.c"
+
+1493875748 c:\users\toni\desktop\tad tst\tst.h
+
+1493875598 c:\users\toni\desktop\tad tst\tst.c
+	<stdio.h>
+	<stdlib.h>
+	"tst.h"
+
+1494178554 source:c:\users\antonio\desktop\tad tst\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tst.h"
+	"tst.c"
+
+1494033026 c:\users\antonio\desktop\tad tst\tst.h
+
+1494111718 c:\users\antonio\desktop\tad tst\tst.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tst.h"
+

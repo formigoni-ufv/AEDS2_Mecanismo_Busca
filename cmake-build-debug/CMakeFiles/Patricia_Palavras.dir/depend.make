@@ -12,9 +12,16 @@ CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: ../Patricia_Palav
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: ../Patricia_Palavras/listaencadeada.h
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: ../Patricia_Palavras/main.c
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: ../Patricia_Palavras/patricia.h
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj: ../Patricia_Palavras/relevancia.h
 
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj: ../Patricia_Palavras/dados.h
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj: ../Patricia_Palavras/listaencadeada.h
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj: ../Patricia_Palavras/patricia.c
 CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj: ../Patricia_Palavras/patricia.h
+
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/relevancia.c.obj: ../Patricia_Palavras/dados.h
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/relevancia.c.obj: ../Patricia_Palavras/listaencadeada.h
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/relevancia.c.obj: ../Patricia_Palavras/patricia.h
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/relevancia.c.obj: ../Patricia_Palavras/relevancia.c
+CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/relevancia.c.obj: ../Patricia_Palavras/relevancia.h
 

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/listaencadeada.c" "D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/listaencadeada.c.obj"
   "D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/main.c" "D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/main.c.obj"
   "D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.c" "D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.obj"
+  "D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/relevancia.c" "D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/cmake-build-debug/CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/relevancia.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

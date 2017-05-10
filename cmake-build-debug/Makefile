@@ -230,6 +230,33 @@ Patricia_Palavras/patricia.c.s:
 	$(MAKE) -f CMakeFiles\Patricia_Palavras.dir\build.make CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/patricia.c.s
 .PHONY : Patricia_Palavras/patricia.c.s
 
+Patricia_Palavras/relevancia.obj: Patricia_Palavras/relevancia.c.obj
+
+.PHONY : Patricia_Palavras/relevancia.obj
+
+# target to build an object file
+Patricia_Palavras/relevancia.c.obj:
+	$(MAKE) -f CMakeFiles\Patricia_Palavras.dir\build.make CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/relevancia.c.obj
+.PHONY : Patricia_Palavras/relevancia.c.obj
+
+Patricia_Palavras/relevancia.i: Patricia_Palavras/relevancia.c.i
+
+.PHONY : Patricia_Palavras/relevancia.i
+
+# target to preprocess a source file
+Patricia_Palavras/relevancia.c.i:
+	$(MAKE) -f CMakeFiles\Patricia_Palavras.dir\build.make CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/relevancia.c.i
+.PHONY : Patricia_Palavras/relevancia.c.i
+
+Patricia_Palavras/relevancia.s: Patricia_Palavras/relevancia.c.s
+
+.PHONY : Patricia_Palavras/relevancia.s
+
+# target to generate assembly for a file
+Patricia_Palavras/relevancia.c.s:
+	$(MAKE) -f CMakeFiles\Patricia_Palavras.dir\build.make CMakeFiles/Patricia_Palavras.dir/Patricia_Palavras/relevancia.c.s
+.PHONY : Patricia_Palavras/relevancia.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,6 +278,9 @@ help:
 	@echo ... Patricia_Palavras/patricia.obj
 	@echo ... Patricia_Palavras/patricia.i
 	@echo ... Patricia_Palavras/patricia.s
+	@echo ... Patricia_Palavras/relevancia.obj
+	@echo ... Patricia_Palavras/relevancia.i
+	@echo ... Patricia_Palavras/relevancia.s
 .PHONY : help
 
 

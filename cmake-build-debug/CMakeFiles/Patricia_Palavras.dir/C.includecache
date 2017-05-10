@@ -35,12 +35,18 @@ D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Me
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/main.c
 stdio.h
 -
+stdlib.h
+-
+string.h
+-
 patricia.h
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
-listaencadeada.h
-D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/listaencadeada.h
+relevancia.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/relevancia.h
 dados.h
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/dados.h
+relevancia.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/relevancia.h
 
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.c
 stdio.h
@@ -53,8 +59,24 @@ patricia.h
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
 
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
+stdlib.h
+-
+stdio.h
+-
 dados.h
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/dados.h
 listaencadeada.h
 D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/listaencadeada.h
+
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/relevancia.c
+math.h
+-
+relevancia.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/relevancia.h
+patricia.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
+
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/relevancia.h
+patricia.h
+D:/Cloud_Storage/Google Drive/Faculdade/Semestre 3/AEDS II/Trabalhos Praticos/Mecanismo_Busca/Patricia_Palavras/patricia.h
 

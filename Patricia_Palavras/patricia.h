@@ -1,5 +1,7 @@
 #ifndef PATRICIA_H
 #define PATRICIA_H
+#include <stdlib.h>
+#include <stdio.h>
 #include "dados.h"
 #include "listaencadeada.h"
 
@@ -20,9 +22,9 @@ typedef struct PatNode{
 			int	pos_differ_key;
 			char comparison_char;
 			PatNode_Pointer left, right;
-		}Internal_Node;						//U0
+		}Internal_Node;
 		Content data;
-	}External_Node;							//UU
+	}External_Node;
 }PatNode;
 
 
